@@ -1,4 +1,4 @@
-<?php 
+<!--?php 
 
 if (isset($_GET['utm_source'])) { $utm_source = $_GET['utm_source'];}
 else { $utm_source = ''; }
@@ -24,11 +24,7 @@ else { $device = ''; }
 
 $fullurl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
+?--><!DOCTYPE html><html lang="en"><head>
 
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -36,12 +32,12 @@ $fullurl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "
  
 <link rel="preload" href="images/banners/jayabheri-sahasra-banner-1.webp" as="image" fetchpriority="high">
 
-<link rel="preload" href="images/logos/jayabheri-white-logo.webp" as="image"  >
+<link rel="preload" href="images/logos/jayabheri-white-logo.webp" as="image">
 
 
 <title>Jayabheri The Sahasra</title>
 
-<?php include 'include-files/top-links.php' ?>
+<!--?php include 'include-files/top-links.php' ?-->
 
 <style>
 #exampleModal121 .img-cls img {width: 100%;}
@@ -77,20 +73,20 @@ section.vws{display:block;}
 </head>
 <body>
 
-<?php include 'include-files/header.php' ?>
+<!--?php include 'include-files/header.php' ?-->
 
 <!-- scroll spy section start-->
-<div data-bs-spy="scroll" data-bs-target="#scroll-spy-on-body" data-bs-offset="0" tabindex="0" >
+<div data-bs-spy="scroll" data-bs-target="#scroll-spy-on-body" data-bs-offset="0" tabindex="0">
  
 <div class="carousel-inner">
 <div class="carousel-item active" data-bs-interval="2000">
-<img  src="images/banners/jayabheri-sahasra-banner-1.webp" class="carousel-img" alt="...">
+<picture><source srcset="images/banners/320w/jayabheri-sahasra-banner-1_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/banners/640w/jayabheri-sahasra-banner-1_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/banners/1024w/jayabheri-sahasra-banner-1_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/banners/1920w/jayabheri-sahasra-banner-1_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/banners/jayabheri-sahasra-banner-1.webp" class="carousel-img" alt="..." loading="lazy" decoding="async" width="1920" height="1080"></picture>
 <div class="carousel-caption d-inline-flex  justify-content-center">
-<div data-aos="fade-up"  data-aos-duration="5000">
-<h2 class="carousel-heading"><span class="ms-5 caption-normal" >A</span>
-<br >
+<div data-aos="fade-up" data-aos-duration="5000">
+<h2 class="carousel-heading"><span class="ms-5 caption-normal">A</span>
+<br>
 <span class="banner-large-text">PARADISE</span><span class="caption-normal"> YOU</span>
-<br >
+<br>
 <span class="align-top caption-normal">CAN CALL </span><span class="banner-large-text">HOME</span>
 </h2>
 </div>
@@ -105,15 +101,15 @@ section.vws{display:block;}
 <div class="container">
 <div class="row">
 
-<div class="col-12 col-md-4 col-lg-4" data-aos="fade-down"  >
-<div class="section-heading" >
+<div class="col-12 col-md-4 col-lg-4" data-aos="fade-down">
+<div class="section-heading">
 <h1>JAYABHERI <br>
 The Sahasra</h1>
 </div>
 </div>
 
-<div class="col-12 col-md-8 col-lg-6" data-aos="fade-up" >
-<h3 >A Symphony of Connected Living Jayabheri</h3>
+<div class="col-12 col-md-8 col-lg-6" data-aos="fade-up">
+<h3>A Symphony of Connected Living Jayabheri</h3>
 <div class="my-3 ">
 <p>At Jayabheri, we believe exceptional properties go beyond shelter. They're vibrant communities in harmony with nature, nurturing social interaction for a flourishing life.</p>
 <p>With pride, we unveil Jayabheri The Sahasra— a visionary project elevating life's quality.</p>
@@ -121,7 +117,7 @@ The Sahasra</h1>
 <p class="rera-no"><b>RERA No.: P02400005088</b></p>
 </div>
 
-<div class='d-flex justify-content-between'>
+<div class="d-flex justify-content-between">
 <a class="download-brochure-btn" data-bs-toggle="modal" data-bs-target="#downloadNowPopUpForm">Download Brochure<i class="bi bi-download ms-2"></i>
 </a>
 
@@ -144,7 +140,7 @@ The Sahasra</h1>
 
 <section class="stads-section">
 <div class="stads-section-content">
-<img class="w-100 lazy"  src="images/bg/about-section-bg.jpg" data-src="images/bg/stads-section-bg.jpg" alt="Buildings">
+<picture><source srcset="images/bg/320w/about-section-bg_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/bg/640w/about-section-bg_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/bg/1024w/about-section-bg_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/bg/1920w/about-section-bg_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy" src="images/bg/about-section-bg.webp" data-src="images/bg/stads-section-bg.jpg" alt="Buildings" loading="lazy" decoding="async" width="1324" height="850"></picture>
 
 <!-- <picture>
   <source media="(max-width: 767px)" srcset="images/bg/about-section-bg-m.webp">
@@ -156,7 +152,7 @@ The Sahasra</h1>
 
 <div class="building-card building-1" data-aos="zoom-in-down">
 <p class="flex-grow-1">966 LAVISH</p>
-<h3>2 & 3 BHK</h3>
+<h3>2 &amp; 3 BHK</h3>
 <p>APARTMENTS</p>
 <hr class="stads-section-hr d-block d-md-none">
 </div>
@@ -190,7 +186,7 @@ The Sahasra</h1>
 <h2>walk-through</h2>
 </div>
 <!--<h3 class="text-center mt-5 mb-5" style="font-weight: 700;text-transform: capitalize;font-size: 30px;margin-bottom:30px">walk-through</h3>-->
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe class="lazyload" data-src="https://player.vimeo.com/video/857778538?h=cedaf9f731&autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;"   allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe class="lazyload" data-src="https://player.vimeo.com/video/857778538?h=cedaf9f731&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
 </section>
 
@@ -205,14 +201,14 @@ The Sahasra</h1>
 </div>
 
 <div class="text-center">
-<img class="w-100 d-none d-md-inline-block lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/nature-canvas-section.png" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 d-none d-md-inline-block lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/nature-canvas-section.png" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </div>
 
 </div>
 
 <div class="row">
 <div class="col-12 col-md-4 text-center pb-3 mb-3" data-aos="fade-up">
-<img class="canvas-mobile-img  lazy d-inline-block d-md-none" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/deep-soil-zone.png" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="canvas-mobile-img  lazy d-inline-block d-md-none" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/deep-soil-zone.png" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 <div class="canvas-content-heading mt-2">
 <h3 class="pp-acma-font me-2">20%</h3>
 <h3> GROUND COVERAGE</h3>
@@ -220,16 +216,16 @@ The Sahasra</h1>
 <p>For an enhanced open space quality</p>
 </div>
 <div class="col-12 col-md-4 text-center pb-3 mb-3" data-aos="fade-down">
-<img class="canvas-mobile-img lazy d-inline-block d-md-none" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/podium-landscape.png" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="canvas-mobile-img lazy d-inline-block d-md-none" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/podium-landscape.png" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 <div class="canvas-content-heading mt-2">
-<h3 class="pp-acma-font me-2" >32%</h3>
+<h3 class="pp-acma-font me-2">32%</h3>
 <h3> Podium Landscape</h3>
 </div>
 
 <p>For Reduced Heat Absorption and Surface radiation</p>
 </div>
 <div class="col-12 col-md-4 text-center pb-3 mb-3" data-aos="fade-up">
-<img class="canvas-mobile-img lazy d-inline-block d-md-none" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/ground-coverage.png" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="canvas-mobile-img lazy d-inline-block d-md-none" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/ground-coverage.png" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 <div class="canvas-content-heading mt-2">
 <h3 class="pp-acma-font me-2">23% </h3>
 <h3>deep soil zone</h3>
@@ -262,25 +258,25 @@ The Sahasra</h1>
 <p>1.</p>
 <div class="row justify-content-between">
 <div class="col-12 col-md-4" data-aos="fade-down">
-<h3 class="amenities-card-heading">SOCIAL & ACTIVE LIVING</h3>
+<h3 class="amenities-card-heading">SOCIAL &amp; ACTIVE LIVING</h3>
 </div>
 <div class="col-12 col-md-7" data-aos="fade-right">
 <ul class="amenities-card-list">
-<li> Amphitheatre & tree grove</li>
+<li> Amphitheatre &amp; tree grove</li>
 <li>Thematic gardens</li>
 <li>Multi-purpose court </li>
 <li>Children's play area</li>
 <li>Senior citizen park</li>
 <li>Pet park</li>
 <li>Open gym/wellness area</li>
-<li>Maidan & Event Plaza</li>
+<li>Maidan &amp; Event Plaza</li>
 <li>Games plaza</li>
 </ul>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6" data-aos="flip-right">
-<img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/amenities-social-active-living.jpg" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/amenities-social-active-living.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </div>
 </div>
 <!-- each amenities row end -->
@@ -298,17 +294,17 @@ The Sahasra</h1>
 <ul class="amenities-card-list">
 <li>30,000 Sq.Ft Of Exclusive Retail Area</li>
 <li>Supermarket</li>
-<li>Convenience Store & Other Vanilla Stores</li>
+<li>Convenience Store &amp; Other Vanilla Stores</li>
 <li>Spa/Salon</li>
-<li>Restaurant/Banquet Hall & Multiple Terrace Banquets</li>
-<li>Cafe & Ice-Cream/Bakery</li>
+<li>Restaurant/Banquet Hall &amp; Multiple Terrace Banquets</li>
+<li>Cafe &amp; Ice-Cream/Bakery</li>
 <li>Pharmacy</li>
 </ul>
 </div>
 </div>
 </div>
 <div class="col-12 col-md-6" data-aos="flip-left">
-<img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/amenities-the-bazaar.jpg" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/amenities-the-bazaar.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </div>
 </div>
 <!-- each amenities row end -->
@@ -334,7 +330,7 @@ The Sahasra</h1>
 </div>
 </div>
 <div class="col-12 col-md-6" data-aos="flip-right">
-<img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/amenities-the-arena.jpg" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/amenities-the-arena.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </div>
 </div>
 <!-- each amenities row end -->
@@ -350,9 +346,9 @@ The Sahasra</h1>
 </div>
 <div class="col-12 col-md-7" data-aos="fade-right">
 <ul class="amenities-card-list">
-<li>Indoor Games Zone – Pool Tables, Table Tennis, Board Games & More</li>
+<li>Indoor Games Zone – Pool Tables, Table Tennis, Board Games &amp; More</li>
 <li>Day Care / Creche</li>
-<li>Music & Dance, Creative Arts Area</li>
+<li>Music &amp; Dance, Creative Arts Area</li>
 <li>Yoga / Aerobics / Meditation</li>
 <li>Multipurpose Halls</li>
 <li>Board Room</li>
@@ -364,7 +360,7 @@ The Sahasra</h1>
 </div>
 </div>
 <div class="col-12 col-md-6" data-aos="flip-left">
-<img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/body/amenities-indoor-recreation.jpg" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="amenities-img lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/amenities-indoor-recreation.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </div>
 </div>
 <!-- each amenities row end -->
@@ -404,7 +400,7 @@ The Sahasra</h1>
 <div><a class="submit-button-1" href="master-plan.php">View <i class="bi bi-arrow-right ms-1"></i></a></div>
 </div>
 <div class="col-12 col-md-5 order-1 order-md-2  mb-2" data-aos="fade-right">
-<a href="master-plan.php"><img style="aspect-ratio: 4/3;" class="floor-plans-small-img mb-2 lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/floor-plans/master-plan-low.jpg" alt=""></a>
+<a href="master-plan.php"><picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img style="aspect-ratio: 4/3;" class="floor-plans-small-img mb-2 lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/floor-plans/master-plan-low.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture></a>
 </div>
 </div>
 <!-- master plan card end  -->
@@ -421,7 +417,7 @@ The Sahasra</h1>
 <div><a class="submit-button-1" href="tower-abdg.php">View <i class="bi bi-arrow-right ms-1"></i></a></div>
 </div>
 <div class="col-12 col-md-4 order-1 order-md-2 mb-2" data-aos="fade-right">
-<a href="tower-abdg.php"><img style="aspect-ratio: 3/4;" class="floor-plans-small-img mb-2 lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/floor-plans/tower-abdg/tower-abdg-first-low.jpg" alt=""></a> 
+<a href="tower-abdg.php"><picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img style="aspect-ratio: 3/4;" class="floor-plans-small-img mb-2 lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/floor-plans/tower-abdg/tower-abdg-first-low.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture></a> 
 </div>
 
 </div>
@@ -431,14 +427,14 @@ The Sahasra</h1>
 <div class="text-center">
 <hr class="floor-plan-hr" data-aos="zoom-in">
 </div>
-<div class="col-12 col-md-5 floor-plans-head-btn order-2 order-md-1 mb-2"  data-aos="zoom-in">
+<div class="col-12 col-md-5 floor-plans-head-btn order-2 order-md-1 mb-2" data-aos="zoom-in">
 <div>
 <h3>TOWER C | E | F</h3>
 </div>
 <div><a class="submit-button-1" href="tower-cef.php">View <i class="bi bi-arrow-right ms-1"></i></a></div>
 </div>
 <div class="col-12 col-md-4 order-1 order-md-2 mb-2" data-aos="fade-right">
-<a href="tower-cef.php"><img style="aspect-ratio: 3/4;" class="floor-plans-small-img mb-2 lazy" src="images/body/loading-img-for-lazyloading.jpg" data-src="images/floor-plans/tower-cef/tower-cef-first-low.jpg" alt=""></a>
+<a href="tower-cef.php"><picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img style="aspect-ratio: 3/4;" class="floor-plans-small-img mb-2 lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/floor-plans/tower-cef/tower-cef-first-low.jpg" alt="" loading="lazy" decoding="async" width="965" height="561"></picture></a>
 </div>
 </div>
 <div class="text-center ">
@@ -450,7 +446,7 @@ The Sahasra</h1>
 </div>
 </section>
 
-<section id="location" class="location-highlights-section pt-0 pb-0"  >
+<section id="location" class="location-highlights-section pt-0 pb-0">
 <div class="container-fluid">
 <div class="row">
 <div class="col-12 col-md-5 px-5 section-padding-top section-padding-bottom bg-green">
@@ -537,10 +533,10 @@ The Sahasra</h1>
 <div class="col-12 col-md-7 ps-0 pe-0">
 <div class="map-container">
 
-<iframe data-src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d37377.501730915945!2d78.2972863871219!3d17.438190613792298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bcb93a2de0845bf%3A0xbafd167e676c8527!2sjayabheri%20sahasra!3m2!1d17.4355545!2d78.3184127!5e0!3m2!1sen!2sin!4v1688035837727!5m2!1sen!2sin"  style="border:none;" allowfullscreen="" loading="lazy" class="lazyload" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe data-src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d37377.501730915945!2d78.2972863871219!3d17.438190613792298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bcb93a2de0845bf%3A0xbafd167e676c8527!2sjayabheri%20sahasra!3m2!1d17.4355545!2d78.3184127!5e0!3m2!1sen!2sin!4v1688035837727!5m2!1sen!2sin" style="border:none;" allowfullscreen="" loading="lazy" class="lazyload" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <div class="get-directions-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-<a href="https://www.google.com/maps/dir/?api=1&destination=17.4355545,78.3184127" target="_blank" class="submit-button-2">Get Directions <i class="bi bi-arrow-right ms-1"></i></a>
+<a href="https://www.google.com/maps/dir/?api=1&amp;destination=17.4355545,78.3184127" target="_blank" class="submit-button-2">Get Directions <i class="bi bi-arrow-right ms-1"></i></a>
 </div>
 
 </div>
@@ -551,7 +547,7 @@ The Sahasra</h1>
 </section>
 
 
-<?php include 'include-files/gallery-section.php' ?>
+<!--?php include 'include-files/gallery-section.php' ?-->
 
 <section class="section-padding-top section-padding-bottom bg-green text-pink">
 <div class="container">
@@ -580,7 +576,7 @@ The Sahasra</h1>
 
 <div class="col-12 col-md-6 ">
 <a href="project-progress/april-2025/block-b.webp" data-fancybox="project-progressf" data-caption="Structure Completed">
-<img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.jpg" data-src="project-progress/april-2025/block-b.webp" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.webp" data-src="project-progress/april-2025/block-b.webp" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </a>
 <h6>B - Block</h6>
 <p>Structure Completed</p>
@@ -588,7 +584,7 @@ The Sahasra</h1>
 
 <div class="col-12 col-md-6">
 <a href="project-progress/april-2025/block-c.webp" data-fancybox="project-progressf" data-caption="6th floor shuttering under progress.">
-<img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.jpg" data-src="project-progress/april-2025/block-c.webp" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.webp" data-src="project-progress/april-2025/block-c.webp" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </a>
 <h6>C - Block</h6>
 <p>6th floor shuttering under progress.</p>
@@ -600,7 +596,7 @@ The Sahasra</h1>
 
 <div class="col-12 col-md-6">
 <a href="project-progress/april-2025/block-d.webp" data-fancybox="project-progressf" data-caption="Structure Completed">
-<img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.jpg" data-src="project-progress/april-2025/block-d.webp" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.webp" data-src="project-progress/april-2025/block-d.webp" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </a>
 <h6>D - Block</h6>
 <p>Structure Completed</p>
@@ -608,7 +604,7 @@ The Sahasra</h1>
 
 <div class="col-12 col-md-6">
 <a href="project-progress/april-2025/block-e.webp" data-fancybox="project-progressf" data-caption="Structure Completed">
-<img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.jpg" data-src="project-progress/april-2025/block-e.webp" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.webp" data-src="project-progress/april-2025/block-e.webp" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </a>
 <h6>E - Block</h6>
 <p>Structure Completed</p>
@@ -620,7 +616,7 @@ The Sahasra</h1>
 
 <div class="col-12 col-md-6">
 <a href="project-progress/april-2025/block-f.webp" data-fancybox="project-progressf" data-caption="7th floor shuttering under progress.">
-<img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.jpg" data-src="project-progress/april-2025/block-f.webp" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.webp" data-src="project-progress/april-2025/block-f.webp" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </a>
 <h6>F - Block</h6>
 <p>7th floor shuttering under progress.</p>
@@ -628,7 +624,7 @@ The Sahasra</h1>
 
 <div class="col-12 col-md-6">
 <a href="project-progress/april-2025/block-g.webp" data-fancybox="project-progressf" data-caption="14th floor shuttering under progress.">
-<img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.jpg" data-src="project-progress/april-2025/block-g.webp" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 lazy construction-progress-img" src="images/body/loading-img-for-lazyloading.webp" data-src="project-progress/april-2025/block-g.webp" alt="" loading="lazy" decoding="async" width="965" height="561"></picture>
 </a>
 <h6>G - Block</h6>
 <p>14th floor shuttering under progress.</p>
@@ -671,8 +667,8 @@ View Previous Project Progress
 
  
 
-<?php include 'include-files/footer.php' ?>
-<?php include 'include-files/bottom-links.php' ?>
+<!--?php include 'include-files/footer.php' ?-->
+<!--?php include 'include-files/bottom-links.php' ?-->
 
 
 <!-- Modal -->
@@ -684,7 +680,7 @@ View Previous Project Progress
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
 <div class="modal-body img-cls">
-<img class = "lazy"  src="images/popup/Price-Hike-Sashra-Fortune-Cookies.webp" data-src="images/popup/Price-Hike-Sashra-Fortune-Cookies.webp" alt="img">
+<picture><source srcset="images/popup/320w/Price-Hike-Sashra-Fortune-Cookies_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/popup/640w/Price-Hike-Sashra-Fortune-Cookies_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/popup/1024w/Price-Hike-Sashra-Fortune-Cookies_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/popup/1920w/Price-Hike-Sashra-Fortune-Cookies_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="lazy" src="images/popup/Price-Hike-Sashra-Fortune-Cookies.webp" data-src="images/popup/Price-Hike-Sashra-Fortune-Cookies.webp" alt="img" loading="lazy" decoding="async" width="400" height="600"></picture>
 </div>
 
 </div>
@@ -705,5 +701,5 @@ $("#updatePopUp").modal('show');
  
  
 
-</body>
-</html>
+
+</body></html>

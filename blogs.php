@@ -1,28 +1,24 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Blogs</title>
-<meta name="description"
-    content="">
+<meta name="description" content="">
 <meta name="keywords" content="">
-<link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/blogs.php" >
-<?php include 'include-files/top-links.php' ?>
+<link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/blogs.php">
+<!--?php include 'include-files/top-links.php' ?-->
 </head>
 
 <body>
-<?php include 'include-files/header-thankyou.php' ?>
+<!--?php include 'include-files/header-thankyou.php' ?-->
 
 <section class="thankyou-page-custom">
 
 <div class="container thankyou-page-content-custom">
-<h1 class="card-title">Blogs <br/>
+<h1 class="card-title">Blogs <br>
 </h1>
-</section>
+</div></section>
 <div class="container">
     <div class="row">
         <!--<div class="col-md-6">-->
@@ -30,7 +26,7 @@
         <!--</div>-->
         <div class="col-md-4 mt-5 mb-5">
             <div>
-              <img src="images/blogs/blog-one.jpg" alt="Top Builders in Hyderabad with Best 3BHK Flats" class="blog-image-custom">
+              <picture><source srcset="images/blogs/320w/blog-one_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-one_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-one_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-one_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-one.webp" alt="Top Builders in Hyderabad with Best 3BHK Flats" class="blog-image-custom" loading="lazy" decoding="async"></picture>
                 
             </div>
             <div class="cont">
@@ -41,7 +37,7 @@
         </div>
         <div class="col-md-4 mt-5 mb-5">
             <div>
-              <img src="images/blogs/blog-two.jpg" alt="A Beginner’s Guide to Buy 3BHK Flats in Hyderabad with Premium Amenities" class="blog-image-custom">
+              <picture><source srcset="images/blogs/320w/blog-two_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-two_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-two_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-two_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-two.webp" alt="A Beginner’s Guide to Buy 3BHK Flats in Hyderabad with Premium Amenities" class="blog-image-custom" loading="lazy" decoding="async"></picture>
                 
             </div>
             <div class=" cont">
@@ -52,7 +48,7 @@
         </div>
         <div class="col-md-4 mt-5 mb-5">
             <div>
-              <img src="images/blogs/blog-three.jpg" alt="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad" class="blog-image-custom">
+              <picture><source srcset="images/blogs/320w/blog-three_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-three_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-three_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-three_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-three.webp" alt="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad" class="blog-image-custom" loading="lazy" decoding="async"></picture>
                 
             </div>
             <div class=" cont">
@@ -63,7 +59,7 @@
         </div>
         <div class="col-md-4 mt-5 mb-5">
             <div>
-              <img src="images/blogs/blog-four.jpg" alt="Unlocking the Lifestyle Advantages of a 2,510 Sq Ft three BHK Apartment" class="blog-image-custom">
+              <picture><source srcset="images/blogs/320w/blog-four_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-four_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-four_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-four_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-four.webp" alt="Unlocking the Lifestyle Advantages of a 2,510 Sq Ft three BHK Apartment" class="blog-image-custom" loading="lazy" decoding="async"></picture>
                 
             </div>
             <div class="cont">
@@ -79,9 +75,9 @@
 </div>
 
 
-<?php include 'include-files/footer.php' ?>
-<?php include 'include-files/bottom-links.php' ?>
+<!--?php include 'include-files/footer.php' ?-->
+<!--?php include 'include-files/bottom-links.php' ?-->
 
-</body>
 
-</html>
+
+</body></html>

@@ -1,4 +1,4 @@
-<?php 
+<!--?php 
 
 if (isset($_GET['utm_source'])) { $utm_source = $_GET['utm_source'];}
 else { $utm_source = ''; }
@@ -24,20 +24,16 @@ else { $device = ''; }
 
 $fullurl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
-?>
-
-<div class="modal fade" id="enquireNowPopUpForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="enquireNowPopUpForm" aria-hidden="true">
+?--><html><head></head><body><div class="modal fade" id="enquireNowPopUpForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="enquireNowPopUpForm" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered modal-lg">
 <div class="modal-content">
 <div class="row">
 <div class="col-lg-6 d-none d-lg-block">
-<img class="w-100 h-100 lazy" src="images/body/loading-img-for-lazyloading.jpg"
-data-src="images/body/enquire-now-popup.jpeg" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 h-100 lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/enquire-now-popup.jpeg" alt=""></picture>
 </div>
 <div class="col-12 col-lg-6">
 <div class="modal-header d-flex justify-content-between">
-<img class="jayabheri-logo lazy" src="images/body/loading-img-for-lazyloading.jpg"
-data-src="images/logos/jayabheri-logo-updated.png" alt="Jayabheri sahasra logo">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="jayabheri-logo lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/logos/jayabheri-logo-updated.png" alt="Jayabheri sahasra logo"></picture>
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
 <div class="modal-body text-dark px-1">
@@ -51,21 +47,20 @@ chiefmarketingofficer@jayabherigroup.in </a></p>
 <form id="enquireNowPopForm" action="mail.php" method="POST">
 
 <div class="mb-3">
-<input class="form-control form-input" type="text" placeholder="Name*" name="name" pattern="[a-zA-z ]+" title="Enter valid Name, Max characters allowed are 30" required>
+<input class="form-control form-input" type="text" placeholder="Name*" name="name" pattern="[a-zA-z ]+" title="Enter valid Name, Max characters allowed are 30" required="">
 </div>
 
 <div class="mb-3">
-<input class="form-control form-input" type="tel" name="phone" pattern="[6-9]{1}[0-9]{9}"
-title="Enter Valid 10 digits Mobile Number" minlength="10" maxlength="12" placeholder="Phone Number*" required>
+<input class="form-control form-input" type="tel" name="phone" pattern="[6-9]{1}[0-9]{9}" title="Enter Valid 10 digits Mobile Number" minlength="10" maxlength="12" placeholder="Phone Number*" required="">
 </div>
 
 <div class="mb-3">
-<input class="form-control form-input" type="email" name="email" title="Enter a valid Email ID" placeholder="Email Address*" required>
+<input class="form-control form-input" type="email" name="email" title="Enter a valid Email ID" placeholder="Email Address*" required="">
 </div>
 
 <!--change-->
-<div class="mb-3 dp-down" >
-<select class="form-controls form-input" name="budget" required style="width: 100%;">
+<div class="mb-3 dp-down">
+<select class="form-controls form-input" name="budget" required="" style="width: 100%;">
 <option value="" style="display:none">Budget</option>
 <option value="₹2.25 Cr to ₹2.35 Cr">₹2.25 Cr to ₹2.35 Cr</option>
 <option value="₹2.65 Cr to ₹2.85 Cr">₹2.65 Cr to ₹2.85 Cr</option>
@@ -74,8 +69,7 @@ title="Enter Valid 10 digits Mobile Number" minlength="10" maxlength="12" placeh
 <div></div>
 
 <div class="mb-3">
-<textarea class="form-control form-input" name="message" cols="30" rows="4"
-placeholder="Write Message"></textarea>
+<textarea class="form-control form-input" name="message" cols="30" rows="4" placeholder="Write Message"></textarea>
 </div>
 
 <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
@@ -113,19 +107,17 @@ placeholder="Write Message"></textarea>
 <div class="modal-content">
 <div class="row">
 <div class="col-lg-6 d-none d-lg-block">
-<img class="w-100 h-100 lazy" src="images/body/loading-img-for-lazyloading.jpg"
-data-src="images/body/download-brochure-pop-up.jpeg" alt="">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="w-100 h-100 lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/body/download-brochure-pop-up.jpeg" alt=""></picture>
 </div>
 <div class="col-12 col-lg-6">
 <div class="modal-header d-flex justify-content-between">
-<img class="jayabheri-logo lazy" src="images/body/loading-img-for-lazyloading.jpg"
-data-src="images/logos/jayabheri-logo-updated.png" alt="Jayabheri sahasra logo">
+<picture><source srcset="images/body/320w/loading-img-for-lazyloading_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/body/640w/loading-img-for-lazyloading_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/body/1024w/loading-img-for-lazyloading_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/body/1920w/loading-img-for-lazyloading_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img class="jayabheri-logo lazy" src="images/body/loading-img-for-lazyloading.webp" data-src="images/logos/jayabheri-logo-updated.png" alt="Jayabheri sahasra logo"></picture>
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
 <div class="modal-body text-dark px-1">
 <div class="mb-2">
 <p><a href="tel:9533135135"><b>Call: </b>+91 9533135135</a></p>
-<p style="overflow-x:auto;"><a  href="mailto:chiefmarketingofficer@jayabherigroup.in"><b>Write to us:</b>
+<p style="overflow-x:auto;"><a href="mailto:chiefmarketingofficer@jayabherigroup.in"><b>Write to us:</b>
 chiefmarketingofficer@jayabherigroup.in </a></p>
 </div>
 
@@ -133,20 +125,19 @@ chiefmarketingofficer@jayabherigroup.in </a></p>
 <form id="downloadNowPopForm" action="brochure-mail.php" method="POST">
 
 <div class="mb-3">
-<input class="form-control form-input" type="text" placeholder="Name*" name="name" pattern="[a-zA-z ]+" title="Enter valid Name, Max characters allowed are 30" required>
+<input class="form-control form-input" type="text" placeholder="Name*" name="name" pattern="[a-zA-z ]+" title="Enter valid Name, Max characters allowed are 30" required="">
 </div>
 
 <div class="mb-3">
-<input class="form-control form-input" type="tel" name="phone" pattern="[6-9]{1}[0-9]{9}" title="Enter Valid 10 digits Mobile Number" minlength="10" maxlength="12" placeholder="Phone Number*"
-required>
+<input class="form-control form-input" type="tel" name="phone" pattern="[6-9]{1}[0-9]{9}" title="Enter Valid 10 digits Mobile Number" minlength="10" maxlength="12" placeholder="Phone Number*" required="">
 </div>
 
 <div class="mb-3">
-<input class="form-control form-input" type="email" name="email" title="Enter a valid Email ID" placeholder="Email Address*" required>
+<input class="form-control form-input" type="email" name="email" title="Enter a valid Email ID" placeholder="Email Address*" required="">
 </div>
 
-<div class="mb-3 dp-down" >
-<select class="form-controls form-input" name="budget" required style="width: 100%;">
+<div class="mb-3 dp-down">
+<select class="form-controls form-input" name="budget" required="" style="width: 100%;">
 <option value="" style="display:none">Budget</option>
 <option value="₹2.25 Cr to ₹2.35 Cr">₹2.25 Cr to ₹2.35 Cr</option>
 <option value="₹2.65 Cr to ₹2.85 Cr">₹2.65 Cr to ₹2.85 Cr</option>
@@ -154,8 +145,7 @@ required>
 </div>
 
 <div class="mb-3">
-<textarea class="form-control form-input" name="message" cols="30" rows="4"
-placeholder="Write Message"></textarea>
+<textarea class="form-control form-input" name="message" cols="30" rows="4" placeholder="Write Message"></textarea>
 </div>
 
 <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
@@ -200,7 +190,7 @@ padding: 0.373rem 0.72rem;
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script  async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script async="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
  
 
@@ -221,7 +211,7 @@ $("#myModal_popup").modal('show');
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="js/custom-swiper.js?V=9"></script>
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet"  >
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
 <script>
 function loadSwiperStylesheet() {
 var stylesheet = document.createElement('link');
@@ -327,7 +317,7 @@ grecaptcha.execute('6LcQJcAgAAAAAOQVcOo1ONNJ-t5fx68tCljogety', { action: 'homepa
 </script>
 
 
-<script  >
+<script>
 function isNumber(evt) {
 evt = (evt) ? evt : window.event;
 var charCode = (evt.which) ? evt.which : evt.keyCode;
@@ -400,3 +390,4 @@ return true;
             } 
  </script>
 
+</body></html>

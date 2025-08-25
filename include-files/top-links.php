@@ -1,5 +1,4 @@
-<!-- Fave Icon  Start-->
-<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+<!-- Fave Icon  Start--><html><head><link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
 <link rel="manifest" href="images/icons/site.webmanifest">
@@ -10,8 +9,8 @@
 <!-- Bootstrap CSS CDN End  -->
 
   <!-- Css files  -->
-  <link rel="stylesheet" href="css/main.css?v=35" >
-  <link rel="stylesheet" href="css/responsive.css?v=44" >
+  <link rel="stylesheet" href="css/main.css?v=35">
+  <link rel="stylesheet" href="css/responsive.css?v=44">
   <!-- CSS files End  -->
   
   <!-- Preloading Images to Improve Performance  -->
@@ -19,7 +18,7 @@
   <link rel="preload" href="images/logos/jayabheri-white-logo.webp" as="image">
   <link rel="preload" href="images/banners/jayabheri-sahasra-banner-1.jpg" as="image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="preload" href="fonts/PPAcma-Semibold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="fonts/Poppins-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="fonts/InterTight-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
@@ -49,3 +48,4 @@ window.addEventListener('load', function() {
 });
 </script>
 
+</head><body></body></html>

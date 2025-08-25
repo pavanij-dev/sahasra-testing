@@ -1,32 +1,28 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>A Beginner’s Guide to Buy 3BHK Flats in Hyderabad with Premium Amenities</title>
-<meta name="description"
-    content="A Beginner’s Guide to Buy 3BHK Flats in Hyderabad with Premium Amenities. We stand as a benchmark of best construction, thoughtful design and timely delivery">
+<meta name="description" content="A Beginner’s Guide to Buy 3BHK Flats in Hyderabad with Premium Amenities. We stand as a benchmark of best construction, thoughtful design and timely delivery">
 <meta name="keywords" content="A Beginner’s Guide to Buy 3BHK Flats in Hyderabad with Premium Amenities">
-<link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/a-beginners-guide-to-buy-3bhk-flats-in-hyderabad-with-premium-amenities.php" >
-<?php include 'include-files/top-links.php' ?>
+<link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/a-beginners-guide-to-buy-3bhk-flats-in-hyderabad-with-premium-amenities.php">
+<!--?php include 'include-files/top-links.php' ?-->
 </head>
 
 <body>
-<?php include 'include-files/header-thankyou.php' ?>
+<!--?php include 'include-files/header-thankyou.php' ?-->
 
 <section class="thankyou-page-custom">
 
 <div class="container thankyou-page-content-custom">
-<h1 class="card-title">Top Builders in Hyderabad with Best 3BHK Flats <br/>
+<h1 class="card-title">Top Builders in Hyderabad with Best 3BHK Flats <br>
 </h1>
-</section>
+</div></section>
 <div class="container">
     <div class="row mt-5 mb-5">
         <div class="col-12 col-md-6 col-lg-6">
-            <img src="images/blogs/blog-two.jpg" class="blog-image-custom">
+            <picture><source srcset="images/blogs/320w/blog-two_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-two_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-two_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-two_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-two.webp" class="blog-image-custom" loading="lazy" decoding="async"></picture>
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-3 mt-md-0">
             <p>According to market studies, the demand for 3BHK flats has grown by over 35% in the last two years, driven largely by growing families, professionals seeking extra space, and investors in search of spacious living. The city’s expanding IT area ,excellent connectivity, and improving infrastructure have made it a hotspot for residential investments. </p>
@@ -101,9 +97,9 @@
 </div>
 
 
-<?php include 'include-files/footer.php' ?>
-<?php include 'include-files/bottom-links.php' ?>
+<!--?php include 'include-files/footer.php' ?-->
+<!--?php include 'include-files/bottom-links.php' ?-->
 
-</body>
 
-</html>
+
+</body></html>

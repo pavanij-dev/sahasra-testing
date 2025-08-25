@@ -1,21 +1,17 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad</title>
-<meta name="description"
-    content="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad. Jayabheri Sahasra stands as a timeless investment where quality meets convenience">
+<meta name="description" content="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad. Jayabheri Sahasra stands as a timeless investment where quality meets convenience">
 <meta name="keywords" content="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad">
-<link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/finding-the-perfect-2-3-bhk-apartment-in-gachibowli-hyderabad.php" >
-<?php include 'include-files/top-links.php' ?>
+<link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/finding-the-perfect-2-3-bhk-apartment-in-gachibowli-hyderabad.php">
+<!--?php include 'include-files/top-links.php' ?-->
 </head>
 
 <body>
-<?php include 'include-files/header-thankyou.php' ?>
+<!--?php include 'include-files/header-thankyou.php' ?-->
 
 <section class="thankyou-page-custom">
 
@@ -23,11 +19,11 @@
 <h1 class="card-title">Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad 
 </h1>
 
-</section>
+</div></section>
 <div class="container">
     <div class="row mt-5 mb-5">
         <div class="col-12 col-md-6 col-lg-6">
-            <img src="images/blogs/blog-three.jpg" alt="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad" class="blog-image-custom">
+            <picture><source srcset="images/blogs/320w/blog-three_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-three_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-three_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-three_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-three.webp" alt="Your Guide to Finding the Perfect 2/3 BHK Apartment in Gachibowli, Hyderabad" class="blog-image-custom" loading="lazy" decoding="async"></picture>
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-3 mt-md-0">
             <p>Gachibowli, one among Hyderabad’s most sought-after residential and IT hubs, has rapidly transformed right into a vibrant urban community supplying the perfect combo of cutting-edge residing and connectivity. With its proximity to primary tech parks, top academic, and world-class healthcare, it’s no surprise that Gachibowli is a top preference for younger professionals, households, and traders alike.</p>
@@ -75,9 +71,9 @@
 </div>
 
 
-<?php include 'include-files/footer.php' ?>
-<?php include 'include-files/bottom-links.php' ?>
+<!--?php include 'include-files/footer.php' ?-->
+<!--?php include 'include-files/bottom-links.php' ?-->
 
-</body>
 
-</html>
+
+</body></html>

@@ -1,33 +1,29 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Top Builders in Hyderabad with Best 3BHK Flats | Jayabheri The Sahasra</title>
-<meta name="description"
-    content="Top Builders in Hyderabad with Best 3BHK Flats, Jayabheri The Sahasra. We promise a comfortable modern lifestyle and great long-term value appreciation. ">
+<meta name="description" content="Top Builders in Hyderabad with Best 3BHK Flats, Jayabheri The Sahasra. We promise a comfortable modern lifestyle and great long-term value appreciation. ">
 <meta name="keywords" content="Top Builders in Hyderabad with Best 3BHK Flats">
 <link rel="canonical" href="https://www.jayabherigroup.com/thesahasra/top-builders-in-hyderabad-with-best-3bhk-flats.php">
-<?php include 'include-files/top-links.php' ?>
+<!--?php include 'include-files/top-links.php' ?-->
 </head>
 
 <body>
-<?php include 'include-files/header-thankyou.php' ?>
+<!--?php include 'include-files/header-thankyou.php' ?-->
 
 <section class="thankyou-page-custom">
 
 <div class="container thankyou-page-content-custom">
-<h1 class="card-title">Top Builders in Hyderabad with Best 3BHK Flats <br/>
+<h1 class="card-title">Top Builders in Hyderabad with Best 3BHK Flats <br>
 </h1>
 
-</section>
+</div></section>
 <div class="container">
     <div class="row mt-5 mb-5">
         <div class="col-12 col-md-6 col-lg-6">
-            <img src="images/blogs/blog-one.jpg" alt="Top Builders in Hyderabad with Best 3BHK Flats" class="blog-image-custom">
+            <picture><source srcset="images/blogs/320w/blog-one_320w.webp" media="(max-width: 320px)" type="image/webp"><source srcset="images/blogs/640w/blog-one_640w.webp" media="(max-width: 640px)" type="image/webp"><source srcset="images/blogs/1024w/blog-one_1024w.webp" media="(max-width: 1024px)" type="image/webp"><source srcset="images/blogs/1920w/blog-one_1920w.webp" media="(max-width: 1920px)" type="image/webp"><img src="images/blogs/blog-one.webp" alt="Top Builders in Hyderabad with Best 3BHK Flats" class="blog-image-custom" loading="lazy" decoding="async"></picture>
         </div>
         <div class="col-12 col-md-6 col-lg-6 mt-3 mt-md-0">
             <p>Hyderabad has quickly become one of the most popular places in India to invest in real estate. According to recent market reports, the city has witnessed a 8-10% annual boom in residential property sales during the last few years, especially in affordable housing segments like 3BHK flats. Hyderabad offers the perfect blend of modern living and rich heritage, thanks to its expanding IT sector, improved infrastructure, and cosmopolitan lifestyle. This has led to a surge in demand  for compact yet comfortable 3BHK apartments that cater to small families, professionals , and investors.
@@ -117,9 +113,9 @@
 </div>
 
 
-<?php include 'include-files/footer.php' ?>
-<?php include 'include-files/bottom-links.php' ?>
+<!--?php include 'include-files/footer.php' ?-->
+<!--?php include 'include-files/bottom-links.php' ?-->
 
-</body>
 
-</html>
+
+</body></html>
