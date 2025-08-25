@@ -1,0 +1,28 @@
+@media screen and (min-width:768px){.banner-large-text{font-size:4.5rem}.caption-normal{font-size:40px}.closebtn .line{background-color:#000}.sidebar .nav-link{color:#465c2b}nav ul li{line-height:45px}.sidebar{background:#f7efe3;padding:3rem}.floor-plan-pages,.section-padding-bottom{padding-bottom:100px}.section-padding-top{padding-top:100px}.map-container{height:100%}.about-us-section{padding-top:200px}.floor-plan-pages{min-height:100vh;padding-top:150px}.canvas-section-heading{text-align:center;margin-bottom:-5rem}.nature-canvas img{max-width:1155px;max-height:506px}.canvas-content-heading{flex-direction:row}.floor-plans-head-btn{flex-direction:column}.submit-button-1{width:114px;height:45px}.gallery-tab-btn{min-width:197px}.sidebar{width:50%;right:-50%}.swiper{width:100%;height:445px;padding-bottom:65px!important}.swiper-button-next,.swiper-button-prev{transform:rotate(90deg)}.navigation-btn-top{top:99%!important;left:45%!important}.navigation-btn-bottom{top:20px!important;left:45%!important}}@media screen and (min-width:798px)and (max-width:991px){.stads-section-content{display:flex;flex-wrap:wrap;justify-content:center}}@media screen and (min-width:992px){h2{font-size:48.83px;line-height:55px}.floor-plan-heading{position:sticky; top:100px;}.sticky-navbar{display:flex}.main-navbar{position:absolute;top:0;left:0;right:0}.sticky-navbar ul{gap:1px;margin-right:1px}.carousel-img{height:100vh;width:100%}.gallery-tab-btn .bi::before{content:" "}.gallery-tab-btn.active .bi::before{display:inline-block;content:"\F138";vertical-align:-.125em;background-repeat:no-repeat;background-size:1rem 1rem}.building-card{position:absolute;display:inline-block}.stads-section img{height:100vh}.stads-section{text-align:left;min-height:85vh}.stads-section-content{position:relative}.building-1{top:15%;left:2%}.building-2{top:4%;left:20%}.building-3{top:4%;right:20%}.building-4{top:15%;right:2%}}@media screen and (min-width:1200px){.sticky-navbar ul{gap:10px;margin-right:1px}.building-1{top:20%;left:2%}.building-2{top:13%;left:18%}.building-3{top:13%;right:18%}.building-4{top:20%;right:2%}}@media screen and (max-width:576px){.jayabheri-logo{width:200px;height:45px}
+    .carousel-heading {height: 130px;width: 215px;}
+    li.nav-item.mb-vr-view a {
+    color: #f7efe3;
+}
+.carousel-caption {height: 200px;}
+}
+
+@media screen and (max-width: 320px){
+   .dwnld-section{display:block !important;}
+   .carousel-caption {height: 200px;}
+   .enqbtn {margin-top: 11px;}
+   .carousel-heading {height: 130px;width: 215px;}
+   .jayabheri-logo {width: 185px;height: 44px;}
+   }
+   
+   
+   
+   
+   
+@media screen and (max-width: 480px){   
+   nav ul li {
+    line-height: 40px;
+}
+.carousel-caption {height: 200px;}
+.carousel-heading {height: 130px;width: 215px;}
+.jayabheri-logo {width: 185px;height: 44px;}
+}
